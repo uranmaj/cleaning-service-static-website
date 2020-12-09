@@ -1,0 +1,592 @@
+html, body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
+}
+
+
+h2 {
+  font-size: 6rem;
+  font-weight: 800;
+  text-align: center;
+  line-height: 100%;
+}
+
+#mehka-voda {
+  width: 60vw;
+  margin: 0 auto;
+}
+
+#mehka-voda h2 {
+  margin-bottom: 0;
+}
+
+#mehka-voda p {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+#voda-slika {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("./slike/slika\ \(11\).jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40vh;
+  margin-top: 20vh;
+}
+
+.circle {
+  height: 180px;
+  width: 180px;
+  background-color: rgb(235, 235, 91);
+  border-radius: 50%;
+  position: absolute;
+  right: 100px;
+  top: 15%;
+}
+
+.circle2 {
+  height: 180px;
+  width: 180px;
+  background-color: rgb(235, 235, 91);
+  border-radius: 50%;
+  position: relative;
+  float: right;
+  margin-right: 100px;
+  margin-top: 50px;
+}
+
+#logo {
+  height: 20vh;
+  background-color: #111111;
+  position: absolute;
+  left: 100px;
+}
+
+#logo h2 {
+  color: #ffffff;
+  line-height: 100%;
+  font-size: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-weight: bold;
+  margin-top: 13vh;
+}
+
+a {
+  color: #111111;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.nav {
+  padding: 20px 100px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+}
+
+.nav .email {
+  position: relative;
+  margin: auto;
+}
+
+.nav .phone {
+  position: relative;
+  margin: auto 0;
+}
+
+
+.hidden {
+  visibility: hidden;
+}
+
+#hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)), url("./slike/slika\ \(9\).jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+
+#service-5 {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)), url("./slike/slika\ \(9\).jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  margin: 0 100px;
+  margin-top: 10px;
+}
+
+h1 {
+  font-size: 6rem;
+  font-weight: 800;
+  text-align: center;
+  line-height: 100%;
+}
+
+#description {
+  display: flex;
+  flex-flow: row;
+  height: 50vh;
+  justify-content: space-evenly;
+  flex-basis: 0;
+}
+
+#description .description-text, .description-number {
+  width: 100%;
+  font-family: 'Raleway', sans-serif;
+  line-height: 220%;
+}
+
+.description-number {
+  position: relative;
+  margin: auto;
+  text-align: center;
+}
+
+.description-number a {
+  font-size: 2.5rem;
+}
+
+.description-text {
+  position: relative;
+  margin: auto;
+}
+
+.description-text p {
+  font-size: 1.7rem;
+  padding-left: 200px;
+}
+
+#services {
+  padding-right: 100px;
+  padding-left: 100px;
+  display: none;
+}
+
+#pisarneText {
+  display: none;
+}
+
+.services {
+  display: flex;
+  flex-flow: row;
+  height: 60vh;
+  flex-basis: 0;
+}
+
+
+
+.service:hover {
+  transform: scale(0.9); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.service {
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  transition: transform .4s;
+}
+
+#service-1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("./slike/slika\ \(10\).jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+#service-2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("./slike/slika\ \(6\).jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+#service-3 {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("./slike/slika\ \(2\).jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#service-4 {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("./slike/slika\ \(7\).jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+h3 {
+  font-size: 4rem;
+  font-weight: 800;
+  text-align: center;
+  line-height: 100%;
+  width: 60%;
+}
+
+.service p {
+  line-height: 200%;
+  font-weight: 500;
+  font-size: 1.2rem;
+  text-align: center;
+  width: 90%;
+  margin-top: -40px;
+  opacity: 0.85;
+}
+
+#description-2 {
+  padding: 20px 200px;
+  font-family: 'Raleway', sans-serif;
+}
+
+#description-2 p {
+  -webkit-columns: 500px 2;
+  -moz-columns:  500px 2;
+  columns: 500px 2;
+  -webkit-column-gap: 20px;
+  -moz-column-gap: 20px;
+  column-gap: 20px;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+#carousel {
+  width: 70vw;
+  margin: auto;
+}
+.slider div {
+  width: 100%;
+  margin: 7px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slider div p{
+  font-size: 1rem;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+@media only screen and (max-width : 1024px) {
+
+
+  .services {
+    display: flex;
+    flex-flow: column;
+    height: auto;
+    flex-basis: 0;
+  }
+  #service-1, #service-2, #service-3, #service-4  {
+    margin: 0;
+    margin-top: 20px;
+    height: 30vh;
+  }
+  #service-5 {
+    display: none;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)), url("./slike/slika\ \(9\).jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  h3 {
+    font-size: 2rem;
+    font-weight: 800;
+    text-align: center;
+    line-height: 100%;
+    width: 80%;
+  }
+  .service p {
+    line-height: 150%;
+    font-weight: 500;
+    font-size: 0.8rem;
+    text-align: center;
+    width: 90%;
+    margin-top: -20px;
+    opacity: 0.85;
+  }
+  #services {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .circle {
+    height: 140px;
+    width: 140px;
+    background-color: rgb(235, 235, 91);
+    border-radius: 50%;
+    position: static;
+    right: 100px;
+    top: 15%;
+    margin-bottom: 60px;
+  }
+  
+  .circle2 {
+    display: none;
+  }
+
+  #logo {
+    left: 20px;
+  }
+  
+  .nav {
+    padding: 5px 20px;
+    text-align: end;
+    display: flex;
+    flex-flow: column;
+  }
+  
+  .nav .email {
+    position: relative;
+    margin: 0;
+  }
+
+  .nav .phone span::after {
+    content: ' ';
+    display: block;
+  }
+ 
+  
+  .nav .phone {
+    position: relative;
+    margin: 0;
+  }
+  
+  
+  .hidden {
+    visibility: hidden;
+    display: none;
+  }
+  
+  #hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)), url("./slike/slika\ \(9\).jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+  }
+  
+  h1 {
+    margin-top: 120px;
+    font-size: 3.5rem;
+    font-weight: 800;
+    text-align: center;
+    line-height: 130%;
+  }
+  
+  #description {
+    display: flex;
+    flex-flow: column;
+    height: auto;
+    justify-content: space-evenly;
+    flex-basis: 0;
+  }
+  
+  #description .description-text, .description-number {
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+    line-height: 200%;
+  }
+  
+  .description-number span::after {
+    content: ' ';
+    display: block;
+  }
+
+  .description-number {
+    position: relative;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  
+  .description-number a {   
+    font-size: 2.5rem;
+  }
+  
+  .description-text {
+    position: relative;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .description-text p {
+    font-size: 1.7rem;
+    padding: 0 20px;
+  }
+  
+  #description-2 {
+    padding: 20px 20px;
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  #description-2 p {
+    -webkit-columns: 500px 2;
+    -moz-columns:  500px 2;
+    columns: 500px 2;
+    -webkit-column-gap: 20px;
+    -moz-column-gap: 20px;
+    column-gap: 20px;
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+
+
+  h2 {
+    font-size: 3rem;
+    font-weight: 800;
+    text-align: center;
+    line-height: 100%;
+  }
+  
+  #mehka-voda {
+    width: 70vw;
+    margin: 0 auto;
+  }
+  
+  #mehka-voda h2 {
+    margin-bottom: 0;
+  }
+  
+  #mehka-voda p {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.5rem;
+  }
+  
+  #voda-slika {
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("./slike/slika\ \(11\).jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    margin-top: 5vh;
+  }
+
+  #carousel {
+    width: 80vw;
+    margin: auto;
+  }
+
+  .slider div {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .slider div p{
+    font-size: 1rem;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 7px;
+  width: 70vw;
+  margin: auto;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 1; /* IE10 */
+  flex: 1;
+  max-width: 1;
+  padding: 0 0px;
+  margin-left: 7px;
+  margin-right: 7px;
+
+}
+
+.column img {
+  margin-bottom: 4px;
+  margin-top: 4px;
+  vertical-align: middle;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 45%;
+    flex: 45%;
+    max-width: 45%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+
+  .row {
+    width: 90vw;
+  }  
+}
+
+
